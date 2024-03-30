@@ -42,3 +42,37 @@ Model Evaluation: Evaluated the performance of the trained models using the F1-S
 Flask App Development: Developed a Flask web application for sentiment analysis of user-provided reviews.
 Model Deployment: Deployed the trained sentiment classification model along with the Flask app on an AWS EC2 instance.
 Testing and Monitoring: Tested the deployed application and monitored its performance for any issues or errors.
+
+## Project Report: Using MLflow for Experiment Tracking and Model Management
+
+Objective:
+The objective of this project is to integrate MLflow into an existing machine learning project for sentiment analysis. MLflow will be used for experiment tracking, model management, and reproducibility.
+
+Introduction:
+Machine learning projects often involve multiple experiments with different models, hyperparameters, and data preprocessing techniques. It can be challenging to keep track of all these experiments and manage the associated models. MLflow provides a comprehensive solution for experiment tracking, model management, and reproducibility.
+
+Approach:
+
+Integration of MLflow: MLflow was integrated into the existing machine learning project for sentiment analysis.
+
+Training Machine Learning Models: Various machine learning models, including Logistic Regression, Random Forest, and MLPClassifier, were trained for sentiment analysis using the provided dataset.
+
+Logging with MLflow: Parameters, metrics, and artifacts were logged using MLflow tracking APIs during model training. Parameters included hyperparameters such as learning rate, regularization strength, and batch size. Metrics included accuracy, precision, recall, and F1-score. Artifacts included model checkpoints and evaluation results.
+
+Customizing MLflow UI: The MLflow UI was customized to display run names, making it easier to identify and track individual experiments.
+
+Metric and Hyperparameter Plots: Metric plots, including accuracy and F1-score, were generated using the MLflow UI to visualize the performance of different models and hyperparameter configurations. Hyperparameter plots were also created to analyze the impact of hyperparameters on model performance.
+
+Model Registration and Tagging: Trained models were registered with MLflow and tagged with relevant metadata, such as model type and dataset used for training. This facilitated easy retrieval and management of models.
+
+Prefect Workflow: A Prefect workflow was built to automate the process of model training and evaluation. The workflow was scheduled to run periodically and monitored using the Prefect dashboard.
+
+Results:
+
+MLflow integration improved experiment tracking and model management.
+Logging with MLflow provided insights into model performance and hyperparameter optimization.
+Customized MLflow UI enhanced visualization of experiment results.
+Model registration and tagging facilitated model retrieval and management.
+The Prefect workflow automation streamlined the model training process and ensured reproducibility.
+Conclusion:
+MLflow proved to be a valuable tool for experiment tracking, model management, and reproducibility in the sentiment analysis project. It enabled efficient logging of parameters, metrics, and artifacts, customization of the UI, and automation of workflows. By leveraging MLflow, machine learning projects can achieve better organization, reproducibility, and collaboration.
