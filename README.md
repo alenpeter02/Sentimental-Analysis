@@ -2,6 +2,8 @@
 
 ## Project Report: Sentiment Analysis of Customer Reviews
 
+AWS link: http://3.83.91.84:8501/ (till 5th April 2024)
+
 1. Introduction
 
 Customer reviews play a crucial role in understanding the perception of a product or service. Sentiment analysis of these reviews can provide valuable insights into customer satisfaction and identify areas for improvement. In this project, we aim to classify customer reviews for the "YONEX MAVIS 350 Nylon Shuttle" product from Flipkart as positive or negative. Additionally, we seek to understand the pain points of customers who write negative reviews.
