@@ -29,9 +29,9 @@ Evaluation Metric: Utilized the F1-Score as the evaluation metric to assess the 
 
 For model deployment, we followed these steps:
 
-Flask or Streamlit App Development: Developed a Flask web application that takes user input in the form of a review and generates the sentiment (positive or negative) of the review.
-Model Integration: Integrated the trained sentiment classification model into the Flask app for real-time inference.
-Deployment: Deployed the Flask app on an AWS EC2 instance to make it accessible over the internet.
+Streamlit App Development: Developed a streamlit web application that takes user input in the form of a review and generates the sentiment (positive or negative) of the review.
+Model Integration: Integrated the trained sentiment classification model into the app for real-time inference.
+Deployment: Deployed the steramlit app on an AWS EC2 instance to make it accessible over the internet.
 6. Workflow
 
 Our workflow involved the following stages:
