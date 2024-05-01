@@ -18,12 +18,12 @@ We performed the following steps for data preprocessing:
 
 Text Cleaning: Removed special characters, punctuation, and stopwords from the review text.
 Text Normalization: Conducted lemmatization to reduce words to their base forms.
-Numerical Feature Extraction: Employed Bag-of-Words (BoW), Term Frequency-Inverse Document Frequency (TF-IDF), Word2Vec (W2V), and BERT models for feature extraction.
+Numerical Feature Extraction: Employed Term Frequency-Inverse Document Frequency (TF-IDF) and Word2Vec (W2V) for feature extraction.
 4. Modeling Approach
 
 Our modeling approach consisted of the following steps:
 
-Model Selection: Trained and evaluated various machine learning and deep learning models using the embedded text data.
+Model Selection: Trained and evaluated various machine learning like logistic regression, random forest classification, and MLP classification models using the embedded text data.
 Evaluation Metric: Utilized the F1-Score as the evaluation metric to assess the performance of the models in classifying sentiment.
 5. Model Deployment
 
